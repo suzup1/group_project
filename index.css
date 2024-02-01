@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  font-family:'Pretendard-Regular' ;
+}
+aside{
+  width: 1000px;
+  height: 500px;
+}
+
+/* header 버튼 부분 시작 */
+header a{
+  width: 150px;
+  padding: 10px 20px;
+  background-color: rgb(210, 222, 245);
+  cursor: pointer;
+}
+header a:hover{
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.lastBtn:hover{
+  background-color: brown;
+}
+
+/* 메인 부분 시작 */
+h3{
+  color:blue;
+}
+h2{
+  color: red;
+}
+
+/* 하단 부분 시작*/
+.up {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+  padding: 5px;
+}
+span{
+  display: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.total{
+  background-image: linear-gradient(rgb(238, 238, 238),white);
+  padding: 50px 30px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.listboxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listbox {
+  display: flex;
+  justify-content: start;
+  margin-right: 30px;
+}
+
+ul li {
+  list-style: none;
+  font-size:14px;
+  margin: 25px 0;
+  color: gray;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.joins {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 230px;
+}
+.join p{
+  font-size: 14px;
+}
+.join div{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  align-items: center;
+  width:200px;
+  height: 50px;
+  background-color: black;
+  border-radius: 35px;
+  text-align: center;
+}
+.button {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.link{
+  font-size: 15px;
+}
+.join div:hover{
+  background-color: gray;
+  text-decoration: underline;
+}
+.icon:hover{
+  transform: scaleX(1.2);
+  transition: 1s;
+  width: 90px;
+}
+ul li:hover{
+  text-decoration: underline;
+}
+.SNS img{
+  border: solid rgb(214, 214, 214) 1px;
+  padding: 5px;
+  border-radius: 50px;
+}
+aside{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.lang{
+  display: flex;
+  justify-content: space-around;
+}
+.lang div{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.lang p{
+  font-size: 13px;
+  
+}
+.lang div:hover{
+  border: 1px black solid;
+}
+.SNS img:hover{
+  border: 1px black solid;
+}
+
