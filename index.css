@@ -156,9 +156,9 @@ aside{
   font-weight: 600;
 }
 .lang p{
-  font-size: 13px;
-  
+  font-size: 13px; 
 }
+ /* 수정 테스트 부분  */
 .lang div:hover{
   border: 1px black solid;
 }
